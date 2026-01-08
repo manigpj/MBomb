@@ -242,7 +242,7 @@ def pretty_print(cc, target, success, failed):
     mesgdcrt.GeneralMessage("Failed       : " + str(failed))
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
-    mesgdcrt.SuccessMessage("MBomb was created by SpeedX")
+    mesgdcrt.SuccessMessage("MBomb was created by ManiKumar")
 
 
 def workernode(mode, cc, target, count, delay, max_threads):
@@ -373,7 +373,7 @@ except FileNotFoundError:
 
 
 __VERSION__ = get_version()
-__CONTRIBUTORS__ = ['SpeedX', 't0xic0der', 'scpketer', 'Stefan']
+__CONTRIBUTORS__ = ['ManiKumar', 't0xic0der', 'scpketer', 'Stefan']
 
 ALL_COLORS = [Fore.GREEN, Fore.RED, Fore.YELLOW, Fore.BLUE,
               Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
@@ -393,7 +393,7 @@ MBomb is not intented for malicious uses.
 """
 
 parser = argparse.ArgumentParser(description=description,
-                                 epilog='Coded by SpeedX !!!')
+                                 epilog='Coded by ManiKumar !!!')
 parser.add_argument("-sms", "--sms", action="store_true",
                     help="start MBomb with SMS Bomb mode")
 parser.add_argument("-call", "--call", action="store_true",
